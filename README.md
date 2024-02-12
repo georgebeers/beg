@@ -1,4 +1,4 @@
 BEG
 ===
 
-a *b*asic *e*ngine for *g*ames
+a **b**asic **e**ngine for **g**ames
