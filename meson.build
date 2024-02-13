@@ -28,10 +28,9 @@ src = [
 args = ['-std=c++20', '-Wall', '-Weffc++', '-Wextra', '-Wconversion', '-Wsign-conversion']
 
 deps = [
-    dependency('glm'),
     dependency('glfw3'),
-    dependency('GL'),
-    dependency('dl')
+    dependency('gl'),
+    dependency('dl'),
 ]
 
 if get_option('buildtype').startswith('debug')

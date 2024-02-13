@@ -65,7 +65,7 @@ public:
         }
 
         setUniform(buffer, value);
-        delete buffer;
+        delete[] buffer;
     }
 
     void use();

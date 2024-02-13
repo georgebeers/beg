@@ -1,6 +1,7 @@
 #ifndef BEG_INPUT_H
 #define BEG_INPUT_H
 
+#include <cstddef>
 #include <array>
 #include <vector>
 

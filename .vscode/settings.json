@@ -1,5 +1,5 @@
 {
-    "C_Cpp.default.compileCommands": "/home/geb/Work/beg/build/compile_commands.json",
+    "C_Cpp.default.compileCommands": "/home/geb/work/beg/build/compile_commands.json",
     "files.associations": {
         "array": "cpp",
         "atomic": "cpp",
@@ -64,7 +64,8 @@
         "mutex": "cpp",
         "shared_mutex": "cpp",
         "stop_token": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "numbers": "cpp"
     },
     "cmake.configureOnOpen": false
 }

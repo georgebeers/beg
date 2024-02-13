@@ -23,7 +23,7 @@ Game::Game(const std::string& name, int width, int height)
     glfwMakeContextCurrent(mWindow);
 
     /* disable cursor & enable raw mouse input */
-    glfwSetInputMode(mWindow, GLFW_CURSOR, GLFW_CURSOR_HIDDEN);
+    glfwSetInputMode(mWindow, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
     if (glfwRawMouseMotionSupported())
         glfwSetInputMode(mWindow, GLFW_RAW_MOUSE_MOTION, GLFW_TRUE);
 

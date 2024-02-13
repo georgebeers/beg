@@ -8,7 +8,7 @@ struct SpinnerComponent : BEG::Component {
 
 struct MoverComponent : BEG::Component {
     float movementSpeed{ 3.0f };
-    float rotationSpeed{ 0.01f };
+    float rotationSpeed{ 0.002f };
 
     BEG::Vector<3> orientation{ 0.0f };
 

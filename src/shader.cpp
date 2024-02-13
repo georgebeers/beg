@@ -50,7 +50,7 @@ unsigned int Shader::compileShader(GLenum type, const std::string& src) {
         Shader::ShaderError err { type == GL_VERTEX_SHADER ? Shader::ShaderErrorType::VertexCompilationError
                                                            : Shader::ShaderErrorType::FragmentCompilationError, buf };
 
-        delete buf;
+        delete[] buf;
 
         throw err;
     }
@@ -81,7 +81,7 @@ Shader::Shader(const std::string& vertSrc, const std::string& fragSrc) : mProgra
 
         Shader::ShaderError err { Shader::ShaderErrorType::ProgramLinkingError, buf };
 
-        delete buf;
+        delete[] buf;
 
         throw err;
     }
